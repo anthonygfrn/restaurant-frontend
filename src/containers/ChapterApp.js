@@ -1,8 +1,6 @@
 import { connect } from "react-redux";
-import ChapterApp from "../components/ChapterApp";
+import { Home } from "../components/Home";
 
-
-const ChapterStore = connect(
-)(ChapterApp);
+const ChapterStore = connect()(Home);
 
 export default ChapterStore;

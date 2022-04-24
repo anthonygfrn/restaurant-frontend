@@ -3,14 +3,12 @@ import currentUser from "./currentUser";
 import registerUser from "./registerUser";
 import loginUser from "./loginUser";
 import shopPage from "./shopPage";
-import cart from "./Cart";
 
 const chapterApp = combineReducers({
-    currentUser,
-    registerUser,
-    loginUser,
-    shopPage,
-    cart
+  currentUser,
+  registerUser,
+  loginUser,
+  shopPage,
 });
 
 export default chapterApp;
