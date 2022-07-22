@@ -7,7 +7,7 @@ import {
   CardContent,
   CardMedia,
 } from "@material-ui/core";
-import Spinner from "./Spinner";
+import "../styles/Spinner.css";
 
 class Restaurant extends Component {
   componentDidMount() {
@@ -50,7 +50,7 @@ class Restaurant extends Component {
         </Grid>
       </div>
     ) : (
-      <Spinner />
+      <div className="loading">Loading&#8230;</div>
     );
   }
 }
